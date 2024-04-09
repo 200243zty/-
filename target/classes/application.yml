@@ -1,0 +1,66 @@
+server:
+  port: 8889
+
+spring:
+
+  main:
+    allow-circular-references: true
+
+  jackson:
+    time-zone: GMT+8
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+  #在windows本地部署不用配置,可以删掉这段配置
+  redis:
+    host: 116.62.207.143
+    port: 6379
+    password: 123321
+
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://116.62.207.143:3306/my_music?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+      username: zy
+      password: 123456
+
+recommend:
+  num: 10
+
+minio:
+  endpoint: http://116.62.207.143:9000
+  accessKey: miniouser
+  secretKey: 200243zy
+  bucketName: mybucket
+
+
+token:
+  expireTime: 259200000
+  secretKey: abcdefghijklmnopqrstuvwxyz
+
+upload:
+  mode: local
+
+  local:
+    # nginx映射本地文件路径
+    url: http://localhost
+    #windows本地：http://localhost/
+    #服务器：http://ip地址/ 或 https://域名/
+    # 本地文件存储路径
+    path: /upload/
+    #windows本地：nginx默认挂载在C盘 若nginx挂载点在C:/upload路径 则配置为：/upload/
+    #服务器：若nginx挂载点在/usr/local/upload路径 则配置为：/usr/local/upload/
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: assign_id
+
+alipay:
+  appId: 9021000136600975
+  appPrivateKey: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC857aP7YzYmg6zRFxYSWtHYO3OjbJehdW9y0j4c74YconURZM42518ABryF3YdEVLECO9CJlDCEvtUQ1qC5rxPYEGWZc8UZZiWoZe70KTVH4vXR8IEh17tIXW7moumZzuIlbD/7fplMp3TA5doz97NuP1RUdOoxKDvISWQ6ynvTinJf4tPEh5tQ2RQkXqYiNi2jaP6DUOm2IQbZ5sKo5cwmbmBYIGyfTVepnxGWkD876vc7cP5aQ/LN+0GZQFYIv+bMvoJBHVWPmOCZJbHu2+DQr0+HybkVMzn3urH2RE7rdCbEg8NXgXtQZibl2YFuU7o2ZzumZ4YkEmhOAVFm35tAgMBAAECggEAQNq8jsVbqbGagmlh2t25+xOIEXYMWu9P5o04TDRQe0w3ja0lUkvz0XKnzZ3Ia0pbQ/pdSjSlXTvvFYraND7LP+UoH15srfADZxOraEvFi3X9KLf2IF/pczgdl38DmumuQsJBtlwZr0ylaqC9Brr3H2H3dkfFhxeauP6ESzCxgPqZs6t+rw9DwcwS5YSvnPBMZ8p4jYn2tw5B44FmQAxlfuHMeuTAtG6V0nM6EIVtiJNRNElFvJnxcG5Ut4mTTVFG+1UGfO6whqeVpVWBX5pbQZotz9NZlHg2obREUhMFV3lc3FxvB/asiK7z2lyxUhnigoIJgZQEcVB3lMtpjIg6cQKBgQDlaxllOnVEPajDwiP/B4u7sZzdZm5lLpQgOrhMhbenkvp73UXe3i+FKQjVkL+pneKfTCrJYxcxEgZQmEot7zBLT7fYn/EInia4SgR7QiGPHmZDHxepDq5XVTLTfkl//ZBWVDGVoLRFWTwQv+frt9qVuTJ4IrAUFiDmeSoI7JKSxwKBgQDSyu3tWDhU6taxpoH+zUq9cegrkNDWW3KSu+t/eQNbTZ8ci+xyZFqtyRr7otBFYguG52L5EGJeCVdq8DHpxLzFLCtULbdLKYFATd3HRKjoftTtyaMfoO2Oz045WTlgPoob3gEogE3zYDxdkDjJ02iddyUG/brGtMhlmYZ49TVxKwKBgQCNtgQv1VZOWs/+a9OUWvLjc6jz0avrcEQrTFo/WnHBXza+gEYCjrhHxrsgQJNDkLVFtOTRFRZkR0ADVK6thQwN2SY090cKDbbZK09tW8IjB6IfX/tbgCgM5iHJJj78goI/8S3XwTbZh29k4UW/AwhQZ99W+gZNwgV8l+dxL8CyTQKBgBG2caXHCvy/uwi0iCnkEEq4/pxij9njV05TMifFAG40qJEahOTb3+7Iflb0yHF8GqHcYamyIcHrIQhgZKFTIdWjr4RkTwmm1DCWGnO7JkJbHgNZNTbcK/obG2SgRbz7pFlRH2HK3kH8LTZjfxIejKTmtRrQSViXKlu3OeCCIlp/AoGAENTRA1ZyEZ9WVgpECdem+PbP9kKvEErn+XdDF67NIoBoBGs2A7+rNBedocbOC7Y4zbZDyZpzO4kjHakHgpdT1GSsRqqbZ1E5rUN6mPdd591GtLG/aexA1WCOXjufO7YcEkNGezD/IIhul09hy2eyWH/Fq9/sLrr0cS5d/t7ck4o=
+  alipayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0HDu7/KiwQquJ37pZq0cxAryUblH4Z40GiUJ6x9HxeaWVSR6lvSNW+cWC60/7w/nMFz4YpR0uyYeQQU0kiDkvifitaum+5iteQQIISaBOVEcEWmxP9x+xMzJ82K2YplrAgyiNMHZAAqExWZD6Ga4DE/N96abCSLM/oKW8U960arF72iEM4fFWHb4L0KCJGDolHMdEuoFQfa4rYkC79uBKZQGekrB26oHDVZw6Ge84MtWXoNv8gLowZEmVaTzFz1WhKwQYY1aq64mGdtyATLombUXHFP/h/6cLMXf8xvNSFeiMdUECOjIhHrjHqAP9L2mAQknY8D2WTUBlnHrEXzsFQIDAQAB
+  notifyUrl:

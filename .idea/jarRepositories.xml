@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="5e419857-6046-4621-bd20-4b0aaa3d761c" />
+      <option name="name" value="5e419857-6046-4621-bd20-4b0aaa3d761c" />
+      <option name="url" value="http://mirrors.cloud.tencent.com/nexus/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="737ddd05-986b-443b-a515-413845baff42" />
+      <option name="name" value="737ddd05-986b-443b-a515-413845baff42" />
+      <option name="url" value="https://repo.huaweicloud.com/repository/maven/" />
+    </remote-repository>
+  </component>
+</project>

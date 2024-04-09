@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51f99249-f94f-44d9-ab96-3d7a135e4421" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../music-admin/src/pages/MV.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/common/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/common/cache/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/AliPayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/MinioConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/MyWebMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/AliPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/ConsumerSongOperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/MVController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/MessageQueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/RecentSongListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/ReplyActionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/SongListStyleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/crawlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/ws/WebsocketEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/MessageEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/biz/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/message/ResultMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/listener/MessageEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/RecommendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/ItemCFServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/util/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xs/vo/ConsumerSongVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xs/controller/MybaitsPlusGetIdTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xs/controller/RecommendControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xs/controller/SecurityContextHolderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xs/controller/SongListControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xs/service/impl/ItemCFServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165754.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165815.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165827.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165834.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165846.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165909.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165927.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165936.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165942.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414165955.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/20180414170003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/avatar/group-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/K歌.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/NO.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/OK.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/下雨.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/乒乓.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/亲亲.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/便便.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/偷笑.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/傲慢.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/再见.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/冷汗.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/凋谢.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/刀.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/勾引.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/发呆.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/发怒.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/发抖.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/发财.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/可怜.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/可爱.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/右哼哼.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/右太极.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/吐.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/吓.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/吻.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/呲牙.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/咒骂.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/咖啡.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/哈欠.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/啤酒.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/喝彩.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/嗅大了.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/嘘.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/囍.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/回头.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/困.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/坏笑.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/多云.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/夜晚.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/大兵.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/大哭.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/太阳.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/奋斗.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/奶瓶.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/委屈.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/害羞.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/尴尬.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/左哼哼.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/左太极.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/差劲.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/帅.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/弱.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/强.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/得意.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/微笑.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/心.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/心碎.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/快哭了.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/怄火.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/惊恐.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/惊讶.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/憨笑.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/戒指.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/抓狂.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/折磨.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/抠鼻.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/抱拳.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/拥抱.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/拳头.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/挥动.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/握手.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/撇嘴.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/擦汗.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/敲打.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/晕.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/枪.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/棒棒糖.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/气球.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/沙发.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/流汗.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/流泪.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/激动.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/灯.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/灯笼.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/炸弹.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/熊猫.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/爆筋.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/爱你.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/爱情.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/猪头.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/献吻.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/玫瑰.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/瓢虫.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/疑问.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/白眼.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/睡.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/磕头.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/礼物.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/篮球.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/纸巾.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/胜利.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/色.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/药丸.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/菜刀.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/蛋糕.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/蜡烛.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/街舞.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/衰.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/西瓜.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/调皮.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/购物.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/足球.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/跳绳.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/跳跳.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/车.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/车厢.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/转圈.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/邮件.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/鄙视.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/酷.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/钱.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/闪电.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/闭嘴.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/闹钟.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/阴险.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/难过.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/雨伞.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/青蛙.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/面条.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/鞭炮.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/风车.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/飞吻.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/飞机.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/饥饿.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/饭.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/香蕉.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/骷髅.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/高铁右车头.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/高铁左车头.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/emoji/鼓掌.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_pc_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_pc_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/public/static/img/screenshot/screen_pc_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/api/Reply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/api/SongAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/collect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/emojis.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/assets/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/CreateSongListDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/MyFavoriate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/chat/card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/chat/chattitle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/chat/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/chat/message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/chat/toolbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/chat/usertext.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/message/PrivateMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/message/Reply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/message/chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/components/message/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/MV.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/Message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/SongDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/TestComment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/TestEmoji.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/aplayer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../music-view/src/pages/recommedSongs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/api/SongList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/api/SongList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/components/TheAside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/components/TheAside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/components/TheHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/components/TheHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/pages/ConsumerPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/pages/ConsumerPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/pages/InfoPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/pages/InfoPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/pages/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/pages/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/pages/SingerPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/pages/SingerPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/pages/SongListPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/pages/SongListPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/pages/SongPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/pages/SongPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/plugins/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/plugins/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-admin/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/MusicApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/MusicApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/config/CrossConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/config/JwtLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/JwtLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/CollectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/CollectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/RankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/rank/RankController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/SongListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/SongListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/admin/CommentAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/admin/CommentAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/controller/admin/SongListAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/controller/admin/SongListAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/domain/RecentSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/RecentSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/domain/SongList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/domain/SongList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/mapper/SongListMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/mapper/SongListMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/service/SongListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/SongListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/CollectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/CollectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/RecentSongServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/RecentSongServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/SongListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/service/impl/SongListServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/strategy/context/UploadStrategyContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/strategy/context/UploadStrategyContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/strategy/impl/LocalUploadStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/strategy/impl/LocalUploadStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xs/util/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xs/util/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CollectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CollectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RecentSongMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RecentSongMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SongListMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SongListMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/api/Collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/api/Collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/api/RecentSong.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/api/RecentSong.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/api/Song.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/api/Song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/api/SongList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/api/SongList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/album-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/album-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/comment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/content-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/content-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/leader-board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/leader-board.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/login-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/login-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/lyric.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/lyric.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/my-music.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/my-music.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/sign-up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/sign-up.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/singer-album.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/singer-album.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/song-comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/song-comment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/song-list-album.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/song-list-album.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/css/the-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/css/the-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/data/consumerList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/data/consumerList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/data/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/data/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/assets/data/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/assets/data/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/AlbumContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/AlbumContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/Comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/Comment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/ContentList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/ContentList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/PlayBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/PlayBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/SongAudio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/SongAudio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/SongComment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/SongComment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/TheHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/TheHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/components/search/SearchSongs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/components/search/SearchSongs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/mixins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/mixins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/LeaderBoard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/LeaderBoard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/Lyric.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/Lyric.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/MyMusic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/MyMusic.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/SingerAlbum.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/SingerAlbum.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/SongList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/SongList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/pages/SongListAlbum.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/pages/SongListAlbum.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/plugins/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/plugins/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/store/configure.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/store/configure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/store/song.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/store/song.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/src/store/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/src/store/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../music-view/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../music-view/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2clHmUl3mozhACniD8DsfYB7Eui" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunConfigurationTargetLRU" value="bf9bffa1-7713-4103-b480-5035894dd8fe&#10;b8747adc-4b74-41d6-8e44-8ae8cc23eb07&#10;2e5cc7c0-625d-4ab0-bece-8faf28309247" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../RuoYi分离版/RuoYi-Vue" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3668942" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xs.service.impl" />
+      <recent name="com.xs.service" />
+      <recent name="com.xs.controller" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.xs.service.impl" />
+      <recent name="com.xs.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MusicApplication">
+    <configuration name="ItemCF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xs.service.impl.ItemCF" />
+      <module name="music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xs.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerControllerTest.testPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xs.controller.rank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.xs.controller.ConsumerControllerTest" />
+      <option name="METHOD_NAME" value="testPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemCFServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xs.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xs.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.xs.service.impl.ItemCFServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityContextHolderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="music" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xs.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xs.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.xs.controller.SecurityContextHolderTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="music" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xs.MusicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MusicApplication" />
+        <item itemvalue="JUnit.ItemCFServiceImplTest.test" />
+        <item itemvalue="JUnit.SecurityContextHolderTest.test" />
+        <item itemvalue="应用程序.ItemCF" />
+        <item itemvalue="JUnit.ConsumerControllerTest.testPassword" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="51f99249-f94f-44d9-ab96-3d7a135e4421" name="默认变更列表" comment="" />
+      <created>1708679405103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708679405103</updated>
+      <workItem from="1708679410093" duration="6548000" />
+      <workItem from="1708782729041" duration="3035000" />
+      <workItem from="1708922122277" duration="7747000" />
+      <workItem from="1709028479342" duration="49000" />
+      <workItem from="1709028551350" duration="5634000" />
+      <workItem from="1709095319804" duration="21252000" />
+      <workItem from="1709186921166" duration="5284000" />
+      <workItem from="1709194818061" duration="709000" />
+      <workItem from="1709195822955" duration="768000" />
+      <workItem from="1709290680391" duration="2125000" />
+      <workItem from="1709443095735" duration="3600000" />
+      <workItem from="1709446857328" duration="248000" />
+      <workItem from="1709447125976" duration="17865000" />
+      <workItem from="1709528253011" duration="15376000" />
+      <workItem from="1709607235454" duration="14473000" />
+      <workItem from="1709644552866" duration="2532000" />
+      <workItem from="1709701554611" duration="9342000" />
+      <workItem from="1709722674109" duration="7040000" />
+      <workItem from="1709774869048" duration="3907000" />
+      <workItem from="1709783426537" duration="5664000" />
+      <workItem from="1709792673203" duration="4331000" />
+      <workItem from="1709809878775" duration="8886000" />
+      <workItem from="1709872947296" duration="8120000" />
+      <workItem from="1709957440436" duration="3839000" />
+      <workItem from="1709968254127" duration="4032000" />
+      <workItem from="1709974801038" duration="5543000" />
+      <workItem from="1709986938623" duration="6917000" />
+      <workItem from="1710034647933" duration="11287000" />
+      <workItem from="1710217784963" duration="19475000" />
+      <workItem from="1710304537235" duration="7604000" />
+      <workItem from="1710335383279" duration="4709000" />
+      <workItem from="1710393865292" duration="12635000" />
+      <workItem from="1710505590748" duration="680000" />
+      <workItem from="1710567807925" duration="11973000" />
+      <workItem from="1710596073437" duration="3053000" />
+      <workItem from="1710600549689" duration="235000" />
+      <workItem from="1710602045081" duration="268000" />
+      <workItem from="1710640787844" duration="703000" />
+      <workItem from="1710641775666" duration="13793000" />
+      <workItem from="1710659305641" duration="2884000" />
+      <workItem from="1710671518967" duration="5776000" />
+      <workItem from="1710739609055" duration="6000" />
+      <workItem from="1710911520933" duration="4000" />
+      <workItem from="1710936845467" duration="4950000" />
+      <workItem from="1710992204353" duration="10326000" />
+      <workItem from="1711086907060" duration="5531000" />
+      <workItem from="1711117651455" duration="37000" />
+      <workItem from="1711169282897" duration="10862000" />
+      <workItem from="1712643443244" duration="49000" />
+      <workItem from="1712643528804" duration="659000" />
+      <workItem from="1712648251564" duration="13720000" />
+      <workItem from="1712667055887" duration="201000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="key" />
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.RequestFacade" memberName="request" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

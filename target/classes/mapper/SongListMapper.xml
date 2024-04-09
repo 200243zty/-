@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xs.mapper.SongListMapper">
+<!--    <resultMap id="BaseResultMap" type="com.xs.domain.SongList">-->
+<!--            <id property="id" column="id" jdbcType="INTEGER"/>-->
+<!--            <result property="title" column="title" jdbcType="VARCHAR"/>-->
+<!--            <result property="pic" column="pic" jdbcType="VARCHAR"/>-->
+<!--            <result property="introduction" column="introduction" jdbcType="VARCHAR"/>-->
+<!--            <result property="styleId" column="style" jdbcType="VARCHAR"/>-->
+<!--    </resultMap>-->
+
+    <resultMap id="BaseResultMap" type="com.xs.domain.SongList">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="pic" column="pic" jdbcType="VARCHAR"/>
+        <result property="introduction" column="introduction" jdbcType="VARCHAR"/>
+        <result property="styleId" column="style_id" jdbcType="INTEGER"/>
+        <result property="type" column="type" jdbcType="TINYINT"/>
+        <result property="isPrivate" column="is_private" jdbcType="TINYINT"/>
+        <result property="createrId" column="creater_id" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <select id="getAllSongList" resultType="com.xs.domain.SongList">
+        select
+            sl.*,sls.style as style
+        from song_list sl
+        inner join song_list_style sls on sl.style_id=sls.id
+        where sl.is_private =0
+    </select>
+
+    <select id="getSongListCount" resultType="java.lang.Integer">
+        select count(*) from song_list
+    </select>
+
+    <select id="getSongListCountByStyle" resultType="com.xs.vo.SongListVo">
+        select
+            sls.style as style, count(*) as number
+        from
+            song_list sl inner join song_list_style sls on sl.style_id = sls.id
+            where sl.is_private=0
+        group by style
+    </select>
+
+    <select id="getSongListByStyle" resultType="com.xs.domain.SongList">
+        select
+            sl.*,sls.style as style
+        from
+            song_list sl inner join song_list_style sls on sl.style_id = sls.id
+        where sl.is_private =0 and sls.style=#{style}
+    </select>
+
+    <select id="getAllStyle" resultType="java.lang.String">
+        select
+            sls.style as style
+        from
+            song_list sl inner join song_list_style sls on sl.style_id = sls.id;
+    </select>
+
+    <select id="getAllSongListCountByStyle" resultType="java.lang.Integer">
+        select
+            count(*) as number
+        from
+            song_list
+                inner join song_list_style sls on song_list.style_id = sls.id
+        where
+            sls.style = #{name}
+    </select>
+
+</mapper>

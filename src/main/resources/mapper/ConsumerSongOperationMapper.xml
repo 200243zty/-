@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xs.mapper.ConsumerSongOperationMapper">
+
+    <resultMap id="BaseResultMap" type="com.xs.domain.ConsumerSongOperation">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="consumerId" column="consumer_id" jdbcType="BIGINT"/>
+            <result property="songId" column="song_id" jdbcType="BIGINT"/>
+            <result property="operationType" column="operation_type" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,consumer_id,song_id,
+        operation_type
+    </sql>
+    <select id="getAllUserPreference" resultType="com.xs.domain.ConsumerSongOperation">
+        SELECT
+            consumer_id,
+            song_id,
+            SUM(
+                    CASE operation_type
+                        WHEN 0 THEN 2
+                        WHEN 1 THEN 3
+                        WHEN 2 THEN 4
+                        else 0 END
+                ) AS "value"
+        FROM
+            consumer_song_operation
+        GROUP BY consumer_id, song_id
+    </select>
+</mapper>
